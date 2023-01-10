@@ -14,8 +14,6 @@ function logRandomColor(str){
   log(chalk.hex(ranColor).bold(str));
 }
 
-
-
 // Stretch goals
 /*
   If a user types 'ask' instead of a color name, print questions to ask the user for the name of the color and the luminosity.
@@ -28,7 +26,7 @@ if (hueInput === 'ask') {
 ###############################
 ###############################
 ####                       ####
-####      ${ranColor}      ####
+####      ${ranColor}          ####
 ####                       ####
 ###############################
 ###############################
