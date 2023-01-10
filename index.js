@@ -2,14 +2,14 @@ import chalk from 'chalk';
 import color from 'randomcolor';
 
 const hueInput = process.argv[2];
-const lumInput = process.argv[3]
+const lumInput = process.argv[3];
 
 const ranColor = color.randomColor({
   luminosity: lumInput,
-  hue: hueInput
+  hue: hueInput,
 });
 
-function logRandomColor(str){
+function logRandomColor(str) {
   const log = console.log;
   log(chalk.hex(ranColor).bold(str));
 }
