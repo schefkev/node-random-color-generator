@@ -34,9 +34,3 @@ if (process.argv[2] === 'ask') {
 } else {
   logRandomColor(square);
 }
-
-// Stretch Goals
-
-/*
-  If a user types a size in the format of WWxHH (eg. 31x9) before the color and luminosity, it will use this as the size of the box
-*/
