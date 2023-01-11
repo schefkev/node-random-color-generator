@@ -18,7 +18,7 @@ function logRandomColor(str) {
 /*
   If a user types 'ask' instead of a color name, print questions to ask the user for the name of the color and the luminosity.
 */
-let square = `
+const square = `
 ###############################
 ###############################
 ###############################
